@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6132EF182BDFF13200BBE14D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */; };
+		0C80B921A6F3F58F76C31292 /* libPods-MaharaMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F2FA2414EB595CC62EE498 /* libPods-MaharaMobile.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D92AAE296F6FA600DE8DC6 /* Images.xcassets */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		A7026AEBD3F64ECCA3FE3043 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9E05B6A4934108973F5674 /* AntDesign.ttf */; };
+		7DBB9A1AFD4E4C23A614F6CA /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5F5F45B6C0450E9D13A240 /* Entypo.ttf */; };
+		5BF3F1A1079D488E9A10ADEC /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 657CAEE6C62049B6A2E4EDF6 /* EvilIcons.ttf */; };
+		B0F1A2AD3DC34D9FB0CCA168 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66DFD754D8F64F1AA38DD47F /* Feather.ttf */; };
+		1C3C5DD65A4C4F399302DDCB /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 699A1E2927024DB4B269BC69 /* FontAwesome.ttf */; };
+		CE49A985C5F54A79A86000A2 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D75517684F742029F764012 /* FontAwesome5_Brands.ttf */; };
+		21194B41A79A41A98D8AB31A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61F923C378584D29A7FDD18D /* FontAwesome5_Regular.ttf */; };
+		3C1C24BD62E54F3C89AE8F12 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8CD09D7E34F4AB74DF959 /* FontAwesome5_Solid.ttf */; };
+		570209557EC34A27BE4C89B6 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFD8024DDB04CCCA4908F25 /* Fontisto.ttf */; };
+		F8ADDAAA81BD4A90A5930AC1 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C890352883145FAB6A73E17 /* Foundation.ttf */; };
+		C7E5D61C3F144F4CAB1A6225 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0867D6FB044036BA4D5DF9 /* Ionicons.ttf */; };
+		59EBA25B281B4087B996AAF6 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5787A086142A0B9098C29 /* MaterialCommunityIcons.ttf */; };
+		E59ED122B98F4CF1BAFA817B /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1104090E19344F6DA1A7CDD1 /* MaterialIcons.ttf */; };
+		476477707E3C4882A79C2203 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 731B6E7C837447C08F768886 /* Octicons.ttf */; };
+		20BB6DB5BEB1430DBE29BE2F /* OpenSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F927A0CC4E7D4B0189C883E0 /* OpenSansBold.ttf */; };
+		3EE10A945FD44A95AD8B1B59 /* OpenSansBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54E681BC6D9F4CB99DF11D3D /* OpenSansBoldItalic.ttf */; };
+		BECC5756DF6443F8A73ADCD4 /* OpenSansExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1B25DCFB0734BAB8E95C019 /* OpenSansExtraBold.ttf */; };
+		58C91B502AD04CD1B8DCC239 /* OpenSansExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2D5DC80544BA1926857A8 /* OpenSansExtraBoldItalic.ttf */; };
+		E56B3E2D8CEC4E9E9173FBEE /* OpenSansItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A945D25E53894219B451FBBA /* OpenSansItalic.ttf */; };
+		F9E34599B1EC4F4BAB6661F5 /* OpenSansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3765A643E3E04825B757ECED /* OpenSansLight.ttf */; };
+		3FB46DB67653414BB0EC398D /* OpenSansLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F838B214E5F744AB8863A0F3 /* OpenSansLightItalic.ttf */; };
+		CC7E3CDBEBE9441188A94693 /* OpenSansMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB66A13E0E0A46288BFDEC4C /* OpenSansMedium.ttf */; };
+		E007F7A1EBA247249A394B77 /* OpenSansMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB8ECC8C51254C7A83BC090B /* OpenSansMediumItalic.ttf */; };
+		5F4273B2840E4CD59551B6C3 /* OpenSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81C3B9AF1DDC4E7B992E48F1 /* OpenSansRegular.ttf */; };
+		B7361E7E1DE84181B1AC3FA9 /* OpenSansSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DC4AC76107D46A2AE371499 /* OpenSansSemiBold.ttf */; };
+		79B255473ABF4E58AFB6FDFD /* OpenSansSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD9A0ADEAB2C4F68BFB9BB7A /* OpenSansSemiBoldItalic.ttf */; };
+		1BE7859248054789AB1D59AF /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 302430B9D5AC4208A99BDBD2 /* SimpleLineIcons.ttf */; };
+		DFAF1F5AF5194C63A8BCA6F6 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B842FC68DDD2457A98696CE7 /* Zocial.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = MaharaMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B279D5E399159AD0514A44 /* Pods-MaharaMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaharaMobile.debug.xcconfig"; path = "Target Support Files/Pods-MaharaMobile/Pods-MaharaMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MaharaMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaharaMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MaharaMobile/Info.plist; sourceTree = "<group>"; };
+		18BCE6AD2C97E29A286E93C4 /* Pods-MaharaMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaharaMobile.release.xcconfig"; path = "Target Support Files/Pods-MaharaMobile/Pods-MaharaMobile.release.xcconfig"; sourceTree = "<group>"; };
+		48AABEF3907D48FDB081B17E /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = ../assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
+		4B29A8D9EACC4225BE7026AB /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = ../android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		5AB74F03147F40B798D96073 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = ../assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		603E284C6EDA4372B50DEA46 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = ../android/app/src/main/assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = MaharaMobile/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		74F2FA2414EB595CC62EE498 /* libPods-MaharaMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaharaMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MaharaMobile/AppDelegate.swift; sourceTree = "<group>"; };
+		9666FE5C621A4E85A0660147 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = ../assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
+		9CCAEFEA48AD45648BD1D378 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = ../assets/fonts/AntDesign.ttf; sourceTree = "<group>"; };
+		B4B0DBA095DA4F7AB3413B7A /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = ../android/app/src/main/assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
+		B9A9FC1E9BF74489985B83EA /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = ../android/app/src/main/assets/fonts/Foundation.ttf; sourceTree = "<group>"; };
+		BB0AB58103704A9DA9D4B225 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = ../android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		D884B6EDD4DA49789AC55CC7 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = ../android/app/src/main/assets/fonts/Feather.ttf; sourceTree = "<group>"; };
+		DDADBDFE35FC49609EBF4A77 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = ../assets/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		E56AF4EA2A5227970099CB38 /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
+		E5AF73D52922EBDE00DC1564 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E5D4C443D8214582A4BD9CCE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		E5D92AAE296F6FA600DE8DC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E707529DD5084765B4CCA2E3 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = ../assets/fonts/Octicons.ttf; sourceTree = "<group>"; };
+		EBBE8A15870642BC9282AD3A /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = ../assets/fonts/Zocial.ttf; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F6CD4371A29B49F2A6888FCA /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = ../android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		9A9E05B6A4934108973F5674 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../src/assets/fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF5F5F45B6C0450E9D13A240 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../src/assets/fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		657CAEE6C62049B6A2E4EDF6 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../src/assets/fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66DFD754D8F64F1AA38DD47F /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../src/assets/fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		699A1E2927024DB4B269BC69 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../src/assets/fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D75517684F742029F764012 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../src/assets/fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61F923C378584D29A7FDD18D /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../src/assets/fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		24F8CD09D7E34F4AB74DF959 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../src/assets/fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1FFD8024DDB04CCCA4908F25 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../src/assets/fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C890352883145FAB6A73E17 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../src/assets/fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F0867D6FB044036BA4D5DF9 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../src/assets/fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8CD5787A086142A0B9098C29 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../src/assets/fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1104090E19344F6DA1A7CDD1 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../src/assets/fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		731B6E7C837447C08F768886 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../src/assets/fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F927A0CC4E7D4B0189C883E0 /* OpenSansBold.ttf */ = {isa = PBXFileReference; name = "OpenSansBold.ttf"; path = "../src/assets/fonts/OpenSansBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54E681BC6D9F4CB99DF11D3D /* OpenSansBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSansBoldItalic.ttf"; path = "../src/assets/fonts/OpenSansBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1B25DCFB0734BAB8E95C019 /* OpenSansExtraBold.ttf */ = {isa = PBXFileReference; name = "OpenSansExtraBold.ttf"; path = "../src/assets/fonts/OpenSansExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2CF2D5DC80544BA1926857A8 /* OpenSansExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSansExtraBoldItalic.ttf"; path = "../src/assets/fonts/OpenSansExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A945D25E53894219B451FBBA /* OpenSansItalic.ttf */ = {isa = PBXFileReference; name = "OpenSansItalic.ttf"; path = "../src/assets/fonts/OpenSansItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3765A643E3E04825B757ECED /* OpenSansLight.ttf */ = {isa = PBXFileReference; name = "OpenSansLight.ttf"; path = "../src/assets/fonts/OpenSansLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F838B214E5F744AB8863A0F3 /* OpenSansLightItalic.ttf */ = {isa = PBXFileReference; name = "OpenSansLightItalic.ttf"; path = "../src/assets/fonts/OpenSansLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB66A13E0E0A46288BFDEC4C /* OpenSansMedium.ttf */ = {isa = PBXFileReference; name = "OpenSansMedium.ttf"; path = "../src/assets/fonts/OpenSansMedium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EB8ECC8C51254C7A83BC090B /* OpenSansMediumItalic.ttf */ = {isa = PBXFileReference; name = "OpenSansMediumItalic.ttf"; path = "../src/assets/fonts/OpenSansMediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81C3B9AF1DDC4E7B992E48F1 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; name = "OpenSansRegular.ttf"; path = "../src/assets/fonts/OpenSansRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DC4AC76107D46A2AE371499 /* OpenSansSemiBold.ttf */ = {isa = PBXFileReference; name = "OpenSansSemiBold.ttf"; path = "../src/assets/fonts/OpenSansSemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD9A0ADEAB2C4F68BFB9BB7A /* OpenSansSemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSansSemiBoldItalic.ttf"; path = "../src/assets/fonts/OpenSansSemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		302430B9D5AC4208A99BDBD2 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../src/assets/fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B842FC68DDD2457A98696CE7 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../src/assets/fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC909BC5D8A8D8C7113FE0A9 /* libPods-MaharaMobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B3073E8C7AD4E539DDA51BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D884B6EDD4DA49789AC55CC7 /* Feather.ttf */,
+				4B29A8D9EACC4225BE7026AB /* FontAwesome5_Brands.ttf */,
+				F6CD4371A29B49F2A6888FCA /* FontAwesome5_Regular.ttf */,
+				BB0AB58103704A9DA9D4B225 /* FontAwesome5_Solid.ttf */,
+				B9A9FC1E9BF74489985B83EA /* Foundation.ttf */,
+				B4B0DBA095DA4F7AB3413B7A /* Ionicons.ttf */,
+				E5D4C443D8214582A4BD9CCE /* MaterialCommunityIcons.ttf */,
+				603E284C6EDA4372B50DEA46 /* MaterialIcons.ttf */,
+				9CCAEFEA48AD45648BD1D378 /* AntDesign.ttf */,
+				9666FE5C621A4E85A0660147 /* Entypo.ttf */,
+				5AB74F03147F40B798D96073 /* EvilIcons.ttf */,
+				DDADBDFE35FC49609EBF4A77 /* FontAwesome.ttf */,
+				48AABEF3907D48FDB081B17E /* Fontisto.ttf */,
+				E707529DD5084765B4CCA2E3 /* Octicons.ttf */,
+				EBBE8A15870642BC9282AD3A /* Zocial.ttf */,
+				9A9E05B6A4934108973F5674 /* AntDesign.ttf */,
+				EF5F5F45B6C0450E9D13A240 /* Entypo.ttf */,
+				657CAEE6C62049B6A2E4EDF6 /* EvilIcons.ttf */,
+				66DFD754D8F64F1AA38DD47F /* Feather.ttf */,
+				699A1E2927024DB4B269BC69 /* FontAwesome.ttf */,
+				5D75517684F742029F764012 /* FontAwesome5_Brands.ttf */,
+				61F923C378584D29A7FDD18D /* FontAwesome5_Regular.ttf */,
+				24F8CD09D7E34F4AB74DF959 /* FontAwesome5_Solid.ttf */,
+				1FFD8024DDB04CCCA4908F25 /* Fontisto.ttf */,
+				0C890352883145FAB6A73E17 /* Foundation.ttf */,
+				6F0867D6FB044036BA4D5DF9 /* Ionicons.ttf */,
+				8CD5787A086142A0B9098C29 /* MaterialCommunityIcons.ttf */,
+				1104090E19344F6DA1A7CDD1 /* MaterialIcons.ttf */,
+				731B6E7C837447C08F768886 /* Octicons.ttf */,
+				F927A0CC4E7D4B0189C883E0 /* OpenSansBold.ttf */,
+				54E681BC6D9F4CB99DF11D3D /* OpenSansBoldItalic.ttf */,
+				F1B25DCFB0734BAB8E95C019 /* OpenSansExtraBold.ttf */,
+				2CF2D5DC80544BA1926857A8 /* OpenSansExtraBoldItalic.ttf */,
+				A945D25E53894219B451FBBA /* OpenSansItalic.ttf */,
+				3765A643E3E04825B757ECED /* OpenSansLight.ttf */,
+				F838B214E5F744AB8863A0F3 /* OpenSansLightItalic.ttf */,
+				CB66A13E0E0A46288BFDEC4C /* OpenSansMedium.ttf */,
+				EB8ECC8C51254C7A83BC090B /* OpenSansMediumItalic.ttf */,
+				81C3B9AF1DDC4E7B992E48F1 /* OpenSansRegular.ttf */,
+				8DC4AC76107D46A2AE371499 /* OpenSansSemiBold.ttf */,
+				CD9A0ADEAB2C4F68BFB9BB7A /* OpenSansSemiBoldItalic.ttf */,
+				302430B9D5AC4208A99BDBD2 /* SimpleLineIcons.ttf */,
+				B842FC68DDD2457A98696CE7 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* MaharaMobile */ = {
+			isa = PBXGroup;
+			children = (
+				E5D92AAE296F6FA600DE8DC6 /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+			);
+			name = MaharaMobile;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E56AF4EA2A5227970099CB38 /* hermes.xcframework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				74F2FA2414EB595CC62EE498 /* libPods-MaharaMobile.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */,
+				E5AF73D52922EBDE00DC1564 /* Launch Screen.storyboard */,
+				13B07FAE1A68108700A75B9A /* MaharaMobile */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0B3073E8C7AD4E539DDA51BD /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MaharaMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03B279D5E399159AD0514A44 /* Pods-MaharaMobile.debug.xcconfig */,
+				18BCE6AD2C97E29A286E93C4 /* Pods-MaharaMobile.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* MaharaMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MaharaMobile" */;
+			buildPhases = (
+				9F698D194A94162326BA172B /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E5D92AB0296F8A2700DE8DC6 /* Resources */,
+				8EBE7F0FAE9868169C39C99D /* [CP] Embed Pods Frameworks */,
+				E101A2E0E91902AD1EB6D944 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaharaMobile;
+			productName = MaharaMobile;
+			productReference = 13B07F961A680F5B00A75B9A /* MaharaMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MaharaMobile" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* MaharaMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6132EF182BDFF13200BBE14D /* PrivacyInfo.xcprivacy in Resources */,
+				E5D92AAF296F6FA600DE8DC6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D92AB0296F8A2700DE8DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D92AB1296F8A3200DE8DC6 /* Images.xcassets in Resources */,
+				A7026AEBD3F64ECCA3FE3043 /* AntDesign.ttf in Resources */,
+				7DBB9A1AFD4E4C23A614F6CA /* Entypo.ttf in Resources */,
+				5BF3F1A1079D488E9A10ADEC /* EvilIcons.ttf in Resources */,
+				B0F1A2AD3DC34D9FB0CCA168 /* Feather.ttf in Resources */,
+				1C3C5DD65A4C4F399302DDCB /* FontAwesome.ttf in Resources */,
+				CE49A985C5F54A79A86000A2 /* FontAwesome5_Brands.ttf in Resources */,
+				21194B41A79A41A98D8AB31A /* FontAwesome5_Regular.ttf in Resources */,
+				3C1C24BD62E54F3C89AE8F12 /* FontAwesome5_Solid.ttf in Resources */,
+				570209557EC34A27BE4C89B6 /* Fontisto.ttf in Resources */,
+				F8ADDAAA81BD4A90A5930AC1 /* Foundation.ttf in Resources */,
+				C7E5D61C3F144F4CAB1A6225 /* Ionicons.ttf in Resources */,
+				59EBA25B281B4087B996AAF6 /* MaterialCommunityIcons.ttf in Resources */,
+				E59ED122B98F4CF1BAFA817B /* MaterialIcons.ttf in Resources */,
+				476477707E3C4882A79C2203 /* Octicons.ttf in Resources */,
+				20BB6DB5BEB1430DBE29BE2F /* OpenSansBold.ttf in Resources */,
+				3EE10A945FD44A95AD8B1B59 /* OpenSansBoldItalic.ttf in Resources */,
+				BECC5756DF6443F8A73ADCD4 /* OpenSansExtraBold.ttf in Resources */,
+				58C91B502AD04CD1B8DCC239 /* OpenSansExtraBoldItalic.ttf in Resources */,
+				E56B3E2D8CEC4E9E9173FBEE /* OpenSansItalic.ttf in Resources */,
+				F9E34599B1EC4F4BAB6661F5 /* OpenSansLight.ttf in Resources */,
+				3FB46DB67653414BB0EC398D /* OpenSansLightItalic.ttf in Resources */,
+				CC7E3CDBEBE9441188A94693 /* OpenSansMedium.ttf in Resources */,
+				E007F7A1EBA247249A394B77 /* OpenSansMediumItalic.ttf in Resources */,
+				5F4273B2840E4CD59551B6C3 /* OpenSansRegular.ttf in Resources */,
+				B7361E7E1DE84181B1AC3FA9 /* OpenSansSemiBold.ttf in Resources */,
+				79B255473ABF4E58AFB6FDFD /* OpenSansSemiBoldItalic.ttf in Resources */,
+				1BE7859248054789AB1D59AF /* SimpleLineIcons.ttf in Resources */,
+				DFAF1F5AF5194C63A8BCA6F6 /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		8EBE7F0FAE9868169C39C99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaharaMobile/Pods-MaharaMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaharaMobile/Pods-MaharaMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaharaMobile/Pods-MaharaMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F698D194A94162326BA172B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaharaMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E101A2E0E91902AD1EB6D944 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaharaMobile/Pods-MaharaMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaharaMobile/Pods-MaharaMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaharaMobile/Pods-MaharaMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* MaharaMobile */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B279D5E399159AD0514A44 /* Pods-MaharaMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = B6SWKBKRQH;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MaharaMobile/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahara Mobile";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 24.08.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.mahara.mobile.app;
+				PRODUCT_NAME = MaharaMobile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BCE6AD2C97E29A286E93C4 /* Pods-MaharaMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = B6SWKBKRQH;
+				INFOPLIST_FILE = MaharaMobile/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahara Mobile";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 24.08.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.mahara.mobile.app;
+				PRODUCT_NAME = MaharaMobile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = Yes;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = Yes;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MaharaMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MaharaMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
