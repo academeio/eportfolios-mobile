@@ -113,7 +113,7 @@ The app connects to user-specified server URLs. No hardcoded API endpoints. Logi
 
 ### Deferred Type Renames
 
-The following identifiers retain upstream `Mahara` naming and must NOT be renamed yet (tracked in `docs/planned-features-mobile.md` in the parent eportfolios repo):
+The following identifiers retain upstream `Mahara` naming and must NOT be renamed yet (tracked in `docs/roadmap.md`):
 
 - `MaharaFile`, `maharaFormData`, `uploadItemToMahara`
 - `emptyMFile`, `PendingMFile`, `isPendingMFile`, `isMaharaFile`, `newMaharaFile`

@@ -33,6 +33,10 @@ npm install
 npm run ios      # or: npm run android
 ```
 
+## Related Projects
+
+- [ePortfolios](https://github.com/academeio/eportfolios) — The server-side ePortfolio and competency assessment platform that this app connects to
+
 ## License
 
 GNU General Public License v3. See [LICENSE](LICENSE) for details.
