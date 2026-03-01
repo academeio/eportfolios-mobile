@@ -96,13 +96,13 @@ android {
 
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdkVersion rootProject.ext.compileSdkVersion
-    namespace "org.mahara.mobile.app"
+    namespace "in.eportfolios.mobile"
     defaultConfig {
-        applicationId "org.mahara.mobile.app"
+        applicationId "in.eportfolios.mobile"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 145
-        versionName "25.0.5"
+        versionCode 1
+        versionName "1.0.0"
     }
 
     signingConfigs {

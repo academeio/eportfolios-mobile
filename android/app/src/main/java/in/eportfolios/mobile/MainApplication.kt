@@ -1,4 +1,4 @@
-package org.mahara.mobile.app
+package in.eportfolios.mobile
 
 import android.app.Application
 import com.facebook.react.PackageList
