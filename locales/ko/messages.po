@@ -72,8 +72,12 @@ msgstr "새 태그 추가 +"
 #~ msgstr "Mahara 웹 사이트"
 
 #: src/screens/TermsScreen/TermsScreen.tsx:81
-msgid "All files and content you upload to a Mahara site are subject to copyright law. You are responsible for ensuring you have appropriate permission to reproduce and publish any work that is not your own."
-msgstr "KO All files and content..."
+#~ msgid "All files and content you upload to a Mahara site are subject to copyright law. You are responsible for ensuring you have appropriate permission to reproduce and publish any work that is not your own."
+#~ msgstr "KO All files and content..."
+
+#: src/screens/TermsScreen/TermsScreen.tsx:81
+msgid "All files and content you upload to an ePortfolios site are subject to copyright law. You are responsible for ensuring you have appropriate permission to reproduce and publish any work that is not your own."
+msgstr ""
 
 #: src/components/AddAudio/AddAudio.tsx:56
 #: src/components/AddAudio/AddAudio.tsx:75
@@ -82,8 +86,16 @@ msgid "Allow"
 msgstr "허용하다"
 
 #: src/components/AddAudio/AddAudio.tsx:55
-msgid "Allow Mahara Mobile to access photos, media, and files on your device?"
-msgstr "Mahara Mobile이 기기의 사진, 미디어 및 파일에 액세스하도록 허용 하시겠습니까?"
+msgid "Allow ePortfolios Mobile to access photos, media, and files on your device?"
+msgstr ""
+
+#: src/components/AddAudio/AddAudio.tsx:74
+msgid "Allow ePortfolios Mobile to read photos, media, and files on your device?"
+msgstr ""
+
+#: src/components/AddAudio/AddAudio.tsx:55
+#~ msgid "Allow Mahara Mobile to access photos, media, and files on your device?"
+#~ msgstr "Mahara Mobile이 기기의 사진, 미디어 및 파일에 액세스하도록 허용 하시겠습니까?"
 
 #: src/components/TakePhoto/TakePhoto.tsx:46
 #: src/components/TakePhoto/TakePhoto.tsx:46
@@ -91,8 +103,8 @@ msgstr "Mahara Mobile이 기기의 사진, 미디어 및 파일에 액세스하�
 #~ msgstr ""
 
 #: src/components/AddAudio/AddAudio.tsx:74
-msgid "Allow Mahara Mobile to read photos, media, and files on your device?"
-msgstr ""
+#~ msgid "Allow Mahara Mobile to read photos, media, and files on your device?"
+#~ msgstr ""
 
 #: src/components/AddAudio/AddAudio.tsx:93
 msgid "Allow your microphone to record audio and save the files?"
@@ -128,13 +140,17 @@ msgstr "오디오"
 #~ msgid "Audio (disabled)"
 #~ msgstr ""
 
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:29
+msgid "By using the full potential of the application, you will need to log into the ePortfolios site that you are using for your portfolio work. The login form for internal or LDAP accounts sits in the mobile app, whereas single sign-on takes you to your site. You may also generate an access token manually on your ePortfolios site if that feature is enabled."
+msgstr ""
+
 #: src/screens/LegalScreen/LegalScreen.tsx:27
 #~ msgid "By using the full potential of the application, you will need to log into the Mahara site that you are using for your portfolio work. The login form for internal Mahara or LDAP accounts sits in the mobile app whereas single sign-on takes you to your Mahara site."
 #~ msgstr "응용 프로그램의 잠재력을 최대한 활용하려면 포트폴리오 작업에 사용중인 Mahara 사이트에 로그인해야합니다. 내부 Mahara 또는 LDAP 계정의 로그인 양식은 모바일 앱에 있으며 싱글 사인온은 Mahara 사이트로 이동합니다."
 
 #: src/screens/PrivacyScreen/PrivacyScreen.tsx:30
-msgid "By using the full potential of the application, you will need to log into the Mahara site that you are using for your portfolio work. The login form for internal Mahara or LDAP accounts sits in the mobile app, whereas single sign-on takes you to your Mahara site. You may also generate an access token manually on your Mahara site if that feature is enabled."
-msgstr "KO By using the full potential of the application ... "
+#~ msgid "By using the full potential of the application, you will need to log into the Mahara site that you are using for your portfolio work. The login form for internal Mahara or LDAP accounts sits in the mobile app, whereas single sign-on takes you to your Mahara site. You may also generate an access token manually on your Mahara site if that feature is enabled."
+#~ msgstr "KO By using the full potential of the application ... "
 
 #: src/utils/addEditHelperFunctions.tsx:26
 msgid "Camera closed."
@@ -166,7 +182,7 @@ msgstr "KO Changes to these terms and conditions"
 #~ msgid "Changes to this privacy statement"
 #~ msgstr "이 개인 정보 보호 정책의 변경"
 
-#: src/screens/PrivacyScreen/PrivacyScreen.tsx:112
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:111
 msgid "Changes to this Privacy Statement"
 msgstr "이 개인 정보 보호 정책의 변경"
 
@@ -182,12 +198,12 @@ msgstr "{intlItemType} 편집을 확인하십시오."
 msgid "Connection error"
 msgstr ""
 
-#: src/screens/PrivacyScreen/PrivacyScreen.tsx:126
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:125
 #: src/screens/TermsScreen/TermsScreen.tsx:175
 msgid "Contact"
 msgstr "접촉"
 
-#: src/screens/PrivacyScreen/PrivacyScreen.tsx:133
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:132
 #: src/screens/TermsScreen/TermsScreen.tsx:182
 msgid "contact us."
 msgstr "문의하기"
@@ -231,7 +247,7 @@ msgstr ""
 msgid "Delete"
 msgstr "삭제"
 
-#: src/screens/PrivacyScreen/PrivacyScreen.tsx:94
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:93
 msgid "Deleting your data"
 msgstr ""
 
@@ -271,6 +287,26 @@ msgstr "다른 URL을 입력하십시오"
 msgid "Entry"
 msgstr "분개"
 
+#: src/screens/AboutScreen/AboutScreen.tsx:39
+msgid "ePortfolios is an open source ePortfolio and competency assessment platform designed for reflecting on what you have learned and for supporting social learning. An ePortfolio is a tool and method to record your evidence of learning, e.g. essays, artwork, and certificates, and reflect on them to learn from your experiences. You can also engage in conversations with others and create group portfolios."
+msgstr ""
+
+#: src/screens/AboutScreen/AboutScreen.tsx:51
+msgid "ePortfolios Mobile allows you to collect your evidence on your mobile device, including when you are offline. You can then upload your photos, videos, journal entries, etc. to your ePortfolios site and add them to your portfolios.<0></0>"
+msgstr ""
+
+#: src/screens/AboutScreen/AboutScreen.tsx:29
+msgid "ePortfolios Mobile allows you to connect your mobile device to your ePortfolios site. You can create and collect your content on your mobile device and use the app to upload it to your site. You can upload any files that your device allows you to upload and create journal entries."
+msgstr ""
+
+#: src/screens/TermsScreen/TermsScreen.tsx:48
+msgid "ePortfolios Mobile allows you to upload content from your mobile device into the ePortfolios site that you are using without needing to go to the site itself. It is a more convenient way to record and upload images, video, and audio files. It also allows you to create journal entries."
+msgstr ""
+
+#: src/screens/AboutScreen/AboutScreen.tsx:16
+msgid "ePortfolios Mobile is an open source project by Academe Research, Inc. To contribute or report bugs, see our"
+msgstr ""
+
 #: src/components/UploadForm/UploadForm.tsx:363
 msgid "Error: You do not have any folders on your site."
 msgstr "KO Error: You have no folders"
@@ -294,8 +330,12 @@ msgid "File"
 msgstr "파일"
 
 #: src/screens/PendingScreen/PendingScreen.tsx:202
-msgid "Files have been uploaded to your Mahara successfully!"
-msgstr "파일이 Mahara에 성공적으로 업로드되었습니다!"
+#~ msgid "Files have been uploaded to your Mahara successfully!"
+#~ msgstr "파일이 Mahara에 성공적으로 업로드되었습니다!"
+
+#: src/screens/PendingScreen/PendingScreen.tsx:202
+msgid "Files have been uploaded to your site successfully!"
+msgstr ""
 
 #: src/components/UploadForm/UploadForm.tsx:356
 #: src/screens/PreferencesScreen/PreferencesScreen.tsx:184
@@ -307,8 +347,12 @@ msgid "Folder: {selectedFolder}"
 msgstr ""
 
 #: src/screens/HelpScreen/HelpScreen.tsx:15
-msgid "For help, contact the support team of the Mahara instance that you are using. Typically, you can find a 'Contact us' link in the footer of the Mahara site to which you log in."
-msgstr "도움이 필요하면 사용중인 Mahara 인스턴스의 지원 팀에 문의하십시오. 일반적으로 로그인 한 Mahara 사이트의 바닥 글에서 '문의하기'링크를 찾을 수 있습니다."
+msgid "For help, contact the support team of the ePortfolios site that you are using. Typically, you can find a 'Contact us' link in the footer of the site to which you log in."
+msgstr ""
+
+#: src/screens/HelpScreen/HelpScreen.tsx:15
+#~ msgid "For help, contact the support team of the Mahara instance that you are using. Typically, you can find a 'Contact us' link in the footer of the Mahara site to which you log in."
+#~ msgstr "도움이 필요하면 사용중인 Mahara 인스턴스의 지원 팀에 문의하십시오. 일반적으로 로그인 한 Mahara 사이트의 바닥 글에서 '문의하기'링크를 찾을 수 있습니다."
 
 #: src/screens/TermsScreen/TermsScreen.tsx:38
 msgid "forms part of these terms and conditions and is hereby incorporated by reference."
@@ -327,7 +371,7 @@ msgstr "도움"
 #~ msgid "Hi"
 #~ msgstr "안녕"
 
-#: src/screens/PrivacyScreen/PrivacyScreen.tsx:52
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:51
 msgid "How we use your personal information"
 msgstr "개인 정보를 사용하는 방법"
 
@@ -335,13 +379,17 @@ msgstr "개인 정보를 사용하는 방법"
 msgid "If you have any questions regarding these terms and conditions, please"
 msgstr "만약 질문이 있다면..."
 
-#: src/screens/PrivacyScreen/PrivacyScreen.tsx:129
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:128
 msgid "If you have any questions regarding this Statement, please"
 msgstr "본 성명서에 관해 궁금한 점이 있거나 위의 기준을 준수하지 않았..."
 
 #: src/screens/HelpScreen/HelpScreen.tsx:24
-msgid "If you have general questions or want to report issues, you can do so on the Mahara Mobile's GitHub 'Issues' page."
-msgstr "일반적인 질문이 있거나 문제를보고하려면 Mahara Mobile의 GitHub '문제'페이지에서 할 수 있습니다."
+msgid "If you have general questions or want to report issues, you can do so on the ePortfolios Mobile's GitHub 'Issues' page."
+msgstr ""
+
+#: src/screens/HelpScreen/HelpScreen.tsx:24
+#~ msgid "If you have general questions or want to report issues, you can do so on the Mahara Mobile's GitHub 'Issues' page."
+#~ msgstr "일반적인 질문이 있거나 문제를보고하려면 Mahara Mobile의 GitHub '문제'페이지에서 할 수 있습니다."
 
 #: src/utils/addEditHelperFunctions.tsx:103
 msgid "image preview"
@@ -352,8 +400,12 @@ msgid "ImagePicker Error:{0}"
 msgstr "ImagePicker 오류 : {0}"
 
 #: src/screens/AboutScreen/AboutScreen.tsx:64
-msgid "In order to push content to Mahara from Mahara Mobile, you require an account on a Mahara site that allows mobile uploads. Typically, the institution that you are affiliated with will make a Mahara site available to you to use if you are working with portfolios."
-msgstr "Mahara Mobile에서 Mahara로 콘텐츠를 푸시하려면 모바일 업로드를 ..."
+#~ msgid "In order to push content to Mahara from Mahara Mobile, you require an account on a Mahara site that allows mobile uploads. Typically, the institution that you are affiliated with will make a Mahara site available to you to use if you are working with portfolios."
+#~ msgstr "Mahara Mobile에서 Mahara로 콘텐츠를 푸시하려면 모바일 업로드를 ..."
+
+#: src/screens/AboutScreen/AboutScreen.tsx:64
+msgid "In order to push content to your site from ePortfolios Mobile, you require an account on an ePortfolios site that allows mobile uploads. Typically, the institution that you are affiliated with will make a site available to you to use if you are working with portfolios."
+msgstr ""
 
 #: src/screens/PrivacyScreen/PrivacyScreen.tsx:18
 #: src/screens/TermsScreen/TermsScreen.tsx:22
@@ -365,8 +417,12 @@ msgid "Invalid file"
 msgstr "유효하지 않은 파일"
 
 #: src/store/actions/userArtefacts.ts:76
-msgid "Invalid Mahara site. Please re-enter URL."
-msgstr "잘못된 Mahara 사이트입니다. URL을 다시 입력하십시오."
+#~ msgid "Invalid Mahara site. Please re-enter URL."
+#~ msgstr "잘못된 Mahara 사이트입니다. URL을 다시 입력하십시오."
+
+#: src/store/actions/userArtefacts.ts:76
+msgid "Invalid site. Please re-enter URL."
+msgstr ""
 
 #: src/screens/LoginMethodScreen/LoginMethodScreen.tsx:53
 msgid "Invalid token: please try again."
@@ -451,8 +507,8 @@ msgstr "로그인 실패"
 #~ msgstr "Mahara는 소셜 학습을 위해 설계된 오픈 소스 ePortfolio..."
 
 #: src/screens/AboutScreen/AboutScreen.tsx:39
-msgid "Mahara is an open source ePortfolio platform designed for reflecting on what you have learned and for supporting social learning. An ePortfolio is a tool and method to record your evidence of their learning, e.g. essays, artwork, and certificates, and reflect on them to learn from your experiences . You can also engage in conversations with others and create group portfolios."
-msgstr ""
+#~ msgid "Mahara is an open source ePortfolio platform designed for reflecting on what you have learned and for supporting social learning. An ePortfolio is a tool and method to record your evidence of their learning, e.g. essays, artwork, and certificates, and reflect on them to learn from your experiences . You can also engage in conversations with others and create group portfolios."
+#~ msgstr ""
 
 #: src/screens/AboutScreen/AboutScreen.tsx:15
 #~ msgid "Mahara Mobile"
@@ -463,20 +519,20 @@ msgstr ""
 #~ msgstr "Mahara Mobile을 사용하면 모바일 장치에서..."
 
 #: src/screens/AboutScreen/AboutScreen.tsx:51
-msgid "Mahara Mobile allows you to collect your evidence on your mobile device, including when you are offline. You can then upload your photos, videos, journal entries, etc. to your Mahara instance and add them your portfolios.<0></0>"
-msgstr ""
+#~ msgid "Mahara Mobile allows you to collect your evidence on your mobile device, including when you are offline. You can then upload your photos, videos, journal entries, etc. to your Mahara instance and add them your portfolios.<0></0>"
+#~ msgstr ""
 
 #: src/screens/AboutScreen/AboutScreen.tsx:29
-msgid "Mahara Mobile allows you to connect your mobile device to your Mahara site. You can create and collect your content on your mobile device and use the app to upload it to your Mahara site. You can upload any files that your device allows you to upload and create journal entries."
-msgstr "Mahara Mobile을 사용하면 모바일 장치를 Mahara ..."
+#~ msgid "Mahara Mobile allows you to connect your mobile device to your Mahara site. You can create and collect your content on your mobile device and use the app to upload it to your Mahara site. You can upload any files that your device allows you to upload and create journal entries."
+#~ msgstr "Mahara Mobile을 사용하면 모바일 장치를 Mahara ..."
 
 #: src/screens/TermsScreen/TermsScreen.tsx:48
-msgid "Mahara Mobile allows you to upload content from your mobile device into the Mahara site that you are using without needing to go to the Mahara site itself. It is a more convenient way to record and upload images, video, and audio files. It also allows you to create journal entries."
-msgstr "Mahara Mobile을 사용하면 콘텐츠를 업로드 할 수 있습니다 ..."
+#~ msgid "Mahara Mobile allows you to upload content from your mobile device into the Mahara site that you are using without needing to go to the Mahara site itself. It is a more convenient way to record and upload images, video, and audio files. It also allows you to create journal entries."
+#~ msgstr "Mahara Mobile을 사용하면 콘텐츠를 업로드 할 수 있습니다 ..."
 
 #: src/screens/AboutScreen/AboutScreen.tsx:16
-msgid "Mahara Mobile is an open source project created by the Mahara Project Team. To contribute or report bugs, see our"
-msgstr "Mahara Mobile은 Mahara 프로젝트 팀에서 만든 오픈 소스 프로젝트입니다. 버그에 기여하거나 신고하려면"
+#~ msgid "Mahara Mobile is an open source project created by the Mahara Project Team. To contribute or report bugs, see our"
+#~ msgstr "Mahara Mobile은 Mahara 프로젝트 팀에서 만든 오픈 소스 프로젝트입니다. 버그에 기여하거나 신고하려면"
 
 #: src/screens/AboutScreen/AboutScreen.tsx:15
 #~ msgid "Mahara Project"
@@ -491,9 +547,13 @@ msgstr "메뉴"
 msgid "Name"
 msgstr "이름"
 
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:53
+msgid "Neither the ePortfolios project nor Academe Research, Inc. have access to any of the data that you enter on ePortfolios Mobile nor access to any data analytics. The institution that hosts the ePortfolios site to which you connect cannot access data in your ePortfolios Mobile app either. The institution will have a certain amount of access to data that you upload to the institution's site via ePortfolios Mobile. Please refer to the privacy statement on the ePortfolios site that you are using for more information."
+msgstr ""
+
 #: src/screens/PrivacyScreen/PrivacyScreen.tsx:54
-msgid "Neither the Mahara project nor Catalyst IT have access to any of the data that you enter on Mahara Mobile nor access to any data analytics. The institution that hosts the Mahara site to which you connect cannot access data in your Mahara Mobile app either. The institution will have a certain amount of access to data that you upload to the institution's Mahara site via Mahara Mobile. Please refer to the privacy statement on the Mahara site that you are using for more information."
-msgstr "Mahara 프로젝트 나 Catalyst는 Mahara Mobile에 ..."
+#~ msgid "Neither the Mahara project nor Catalyst IT have access to any of the data that you enter on Mahara Mobile nor access to any data analytics. The institution that hosts the Mahara site to which you connect cannot access data in your Mahara Mobile app either. The institution will have a certain amount of access to data that you upload to the institution's Mahara site via Mahara Mobile. Please refer to the privacy statement on the Mahara site that you are using for more information."
+#~ msgstr "Mahara 프로젝트 나 Catalyst는 Mahara Mobile에 ..."
 
 #: src/components/UploadForm/TagsPicker.tsx:161
 msgid "New tag..."
@@ -520,9 +580,13 @@ msgstr "사진이 촬영되지 않았습니다"
 msgid "Okay"
 msgstr "확실한"
 
-#: src/screens/PrivacyScreen/PrivacyScreen.tsx:96
-msgid "Once you have uploaded data to your Mahara account, it is no longer stored in the app. Log into your account on the Mahara website you use to manage or delete uploaded data there. When you log out of Mahara Mobile, all content you created in the app will be deleted. This cannot be undone. Only files that already existed on your device before you added them to your Mahara Mobile queue for uploading to your Mahara account will still be available on your device unless you deleted them yourself."
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:95
+msgid "Once you have uploaded data to your ePortfolios account, it is no longer stored in the app. Log into your account on the ePortfolios website you use to manage or delete uploaded data there. When you log out of ePortfolios Mobile, all content you created in the app will be deleted. This cannot be undone. Only files that already existed on your device before you added them to your ePortfolios Mobile queue for uploading to your ePortfolios account will still be available on your device unless you deleted them yourself."
 msgstr ""
+
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:96
+#~ msgid "Once you have uploaded data to your Mahara account, it is no longer stored in the app. Log into your account on the Mahara website you use to manage or delete uploaded data there. When you log out of Mahara Mobile, all content you created in the app will be deleted. This cannot be undone. Only files that already existed on your device before you added them to your Mahara Mobile queue for uploading to your Mahara account will still be available on your device unless you deleted them yourself."
+#~ msgstr ""
 
 #: src/utils/addEditHelperFunctions.tsx:59
 msgid "Open Camera"
@@ -607,8 +671,12 @@ msgstr "개인 정보 보호 정책"
 #~ msgstr "프로필 설정"
 
 #: src/screens/TermsScreen/TermsScreen.tsx:46
-msgid "Purpose of Mahara Mobile"
-msgstr "Mahara Mobile의 목적"
+msgid "Purpose of ePortfolios Mobile"
+msgstr ""
+
+#: src/screens/TermsScreen/TermsScreen.tsx:46
+#~ msgid "Purpose of Mahara Mobile"
+#~ msgstr "Mahara Mobile의 목적"
 
 #: src/components/UploadForm/UploadForm.tsx:426
 msgid "Queue to upload"
@@ -682,7 +750,7 @@ msgstr "로그인 건너 뛰기"
 msgid "Stop"
 msgstr "녹화 중지"
 
-#: src/screens/PrivacyScreen/PrivacyScreen.tsx:71
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:70
 msgid "Storage and security of your personal information"
 msgstr "개인 정보의 보관 및 보안"
 
@@ -741,16 +809,28 @@ msgid "These Terms and Conditions are governed by the laws of New Zealand (exclu
 msgstr "본 이용 약관은 뉴질랜드 법률에 따릅니다 ..."
 
 #: src/screens/TermsScreen/TermsScreen.tsx:24
-msgid "This document constitutes a binding agreement between the provider of Mahara Mobile – Catalyst.Net Limited – and yourself. The terms and conditions contained in this document govern your use of Mahara Mobile."
-msgstr "이 문서는 Mahara Mobile 공급자 간의 구속력있는 계약을 구성합니다..."
+msgid "This document constitutes a binding agreement between the provider of ePortfolios Mobile – Academe Research, Inc. – and yourself. The terms and conditions contained in this document govern your use of ePortfolios Mobile."
+msgstr ""
+
+#: src/screens/TermsScreen/TermsScreen.tsx:24
+#~ msgid "This document constitutes a binding agreement between the provider of Mahara Mobile – Catalyst.Net Limited – and yourself. The terms and conditions contained in this document govern your use of Mahara Mobile."
+#~ msgstr "이 문서는 Mahara Mobile 공급자 간의 구속력있는 계약을 구성합니다..."
 
 #: src/utils/formHelper.tsx:33
 msgid "This field is required."
 msgstr "이 필드는 필수입니다."
 
 #: src/store/actions/userArtefacts.ts:64
-msgid "This is not a Mahara site. Please re-enter URL."
-msgstr "이것은 Mahara 사이트가 아닙니다. URL을 다시 입력하십시오."
+#~ msgid "This is not a Mahara site. Please re-enter URL."
+#~ msgstr "이것은 Mahara 사이트가 아닙니다. URL을 다시 입력하십시오."
+
+#: src/store/actions/userArtefacts.ts:64
+msgid "This is not a valid ePortfolios site. Please re-enter URL."
+msgstr ""
+
+#: src/screens/VersionScreen/VersionScreen.tsx:15
+msgid "This version of ePortfolios Mobile is {version}. It supports the latest two versions of Android and iOS."
+msgstr ""
 
 #: src/screens/VersionScreen/VersionScreen.tsx:7
 #~ msgid "This version of Mahara Mobile is"
@@ -773,8 +853,8 @@ msgstr "이것은 Mahara 사이트가 아닙니다. URL을 다시 입력하십�
 #~ msgstr ""
 
 #: src/screens/VersionScreen/VersionScreen.tsx:15
-msgid "This version of Mahara Mobile is {version}. It the latest two versions of Android and iOS."
-msgstr ""
+#~ msgid "This version of Mahara Mobile is {version}. It the latest two versions of Android and iOS."
+#~ msgstr ""
 
 #: src/screens/VersionScreen/VersionScreen.tsx:7
 #~ msgid "This version of Mahara Mobile is 21.04.2"
@@ -846,14 +926,18 @@ msgstr "버전"
 #~ msgstr "우리는 귀하의 개인 정보를 보호하고 안전하고 기능적인 개인 학습 및 개발 환경을 제공하기 위해 최선을 다하고 있습니다. 이 개인 정보 보호 정책은 Mahara 커뮤니티를 대신하여 Catalyst IT에서 제공하는 앱 'Mahara Mobile'에 적용되며 데이터 수집 및 사용을 관리합니다."
 
 #: src/screens/PrivacyScreen/PrivacyScreen.tsx:20
-msgid "We are committed to protecting your privacy and providing you with a safe mobile app to connect to your instance of Mahara. This Statement of Privacy applies to the mobile app 'Mahara Mobile' as provided by Catalyst.Net Limited ('Catalyst IT') on behalf of the Mahara community and governs data collection and usage."
-msgstr "우리는 귀하의 개인 정보를 보호하기 위해 최선을 다하고 있습니다 ..."
+msgid "We are committed to protecting your privacy and providing you with a safe mobile app to connect to your ePortfolios site. This Statement of Privacy applies to the mobile app 'ePortfolios Mobile' as provided by Academe Research, Inc. and governs data collection and usage."
+msgstr ""
+
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:20
+#~ msgid "We are committed to protecting your privacy and providing you with a safe mobile app to connect to your instance of Mahara. This Statement of Privacy applies to the mobile app 'Mahara Mobile' as provided by Catalyst.Net Limited ('Catalyst IT') on behalf of the Mahara community and governs data collection and usage."
+#~ msgstr "우리는 귀하의 개인 정보를 보호하기 위해 최선을 다하고 있습니다 ..."
 
 #: src/screens/TermsScreen/TermsScreen.tsx:128
 msgid "We make no representations and give no warranties, guarantees or undertakings concerning our provision or administration of the mobile app, or your use thereof, except as expressly set out in this agreement. Other warranties, express or implied, by statute or otherwise (including but not limited to the warranties of merchantability, fitness for a particular purpose, and satisfactory quality) are excluded from this agreement. It is intended that this clause will apply only to the maximum extent permitted by law: the clause is not intended to exclude the application of the New Zealand Consumer Guarantees Act 1993 or similar law where we are providing services to consumers."
 msgstr "우리는 어떠한 진술도하지 않으며 보증도하지 않습니다 ..."
 
-#: src/screens/PrivacyScreen/PrivacyScreen.tsx:114
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:113
 msgid "We may occasionally make adjustments to our Privacy Statement to reflect changes to the system and in response to feedback. As such, we suggest you check the Privacy Statement each time you visit this app."
 msgstr "시스템 변경 사항을 반영하고 피드백에 응답하기 위해 때때로 개인 정보 보호 정책을 조정할 수..."
 
@@ -862,24 +946,40 @@ msgid "We may occasionally make adjustments to our Terms and Conditions to refle
 msgstr "때때로 이용 약관을 조정할 수 있습니다 ..."
 
 #: src/screens/TermsScreen/TermsScreen.tsx:63
-msgid "We provide a secure environment that allows you to upload your content to any Mahara site to which you decide to connect."
-msgstr "우리는 당신을 허용하는 안전한 환경을 제공합니다 ..."
+msgid "We provide a secure environment that allows you to upload your content to any ePortfolios site to which you decide to connect."
+msgstr ""
+
+#: src/screens/TermsScreen/TermsScreen.tsx:63
+#~ msgid "We provide a secure environment that allows you to upload your content to any Mahara site to which you decide to connect."
+#~ msgstr "우리는 당신을 허용하는 안전한 환경을 제공합니다 ..."
+
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:73
+msgid "We will take all reasonable steps to ensure that the connection between ePortfolios Mobile and the site you connect to is secure from the app perspective and that your access information is not disclosed. Neither the ePortfolios project nor Academe Research, Inc. are responsible though for maintaining the site that you connect to or keeping your installation of ePortfolios Mobile up to date on your mobile device. It is the responsibility of the organisation providing the ePortfolios service to keep the site and its content secure. In order to help protect your personal information, please do not disclose your username, password, or access token to anybody or allow them to view content you are planning to upload to your site via ePortfolios Mobile."
+msgstr ""
 
 #: src/screens/PrivacyScreen/PrivacyScreen.tsx:74
-msgid "We will take all reasonable steps to ensure that the connection between Mahara Mobile and a Mahara site you connect to is secure from the app perspective and that your access information is not disclosed. Neither the Mahara project nor Catalyst IT are responsible though for maintaining the Mahara site that you connect to or keeping your installation of Mahara Mobile up to date on your mobile device. It is the responsibility of the organisation providing the Mahara service to keep the site and its content secure. In order to help protect your personal information, please do not disclose your username, password, or access token to anybody or allow them to view content you are planning to upload to your Mahara site via Mahara Mobile."
-msgstr ""
+#~ msgid "We will take all reasonable steps to ensure that the connection between Mahara Mobile and a Mahara site you connect to is secure from the app perspective and that your access information is not disclosed. Neither the Mahara project nor Catalyst IT are responsible though for maintaining the Mahara site that you connect to or keeping your installation of Mahara Mobile up to date on your mobile device. It is the responsibility of the organisation providing the Mahara service to keep the site and its content secure. In order to help protect your personal information, please do not disclose your username, password, or access token to anybody or allow them to view content you are planning to upload to your Mahara site via Mahara Mobile."
+#~ msgstr ""
 
 #: src/screens/PrivacyScreen/PrivacyScreen.tsx:51
 #~ msgid "We will take all reasonable steps to ensure that the connection between Mahara Mobile and a Mahara site you connect to is secure from the app perspective and that your access information is not disclosed. Neither the Mahara project nor Catalyst IT are responsible though for maintaining the Mahara site that you connect to or keeping your installation of Mahara Mobile up to date on your mobile device. It is the responsibility of the organisation providing the Mahara service to keep the site and its content secure. In order to help protect your personal information, please do not disclose your username, password, or access token to anybody or allow them to view content you are planning to upload to your Mahara site via Mahara Mobile. Once content has been uploaded, file names, descriptions, and journal entries are not available via the app anymore. Images and videos will still be stored in their original location on your device. Audio recordings are not stored outside of Mahara Mobile."
 #~ msgstr "우리는 Mahara Mobile과 귀하가 연결하는 Mahara..."
 
 #: src/store/actions/userArtefacts.ts:69
-msgid "Web services are not enabled on the Mahara site. Please contact the administrator of your site to have them enabled."
-msgstr "Mahara 사이트에서 웹 서비스를 사용할 수 없습니다. 활성화하려면 사이트 관리자에게 문의하십시오."
+#~ msgid "Web services are not enabled on the Mahara site. Please contact the administrator of your site to have them enabled."
+#~ msgstr "Mahara 사이트에서 웹 서비스를 사용할 수 없습니다. 활성화하려면 사이트 관리자에게 문의하십시오."
+
+#: src/store/actions/userArtefacts.ts:69
+msgid "Web services are not enabled on this site. Please contact the administrator of your site to have them enabled."
+msgstr ""
 
 #: src/screens/SiteCheckScreen/SiteCheckScreen.tsx:151
-msgid "What is the address of your Mahara?"
+msgid "What is the address of your ePortfolios site?"
 msgstr ""
+
+#: src/screens/SiteCheckScreen/SiteCheckScreen.tsx:151
+#~ msgid "What is the address of your Mahara?"
+#~ msgstr ""
 
 #: src/screens/TermsScreen/TermsScreen.tsx:113
 msgid "You agree to defend, indemnify and save us, our affiliated and subsidiary corporations, our officers, directors, employees, agents, successors, shareholders and assigns harm from and against all liability, loss, expense, fines, penalties, or damages (including legal costs) to the extent that such claim arises out of or is in any way connected with the non-performance or breach of any obligation imposed on you by this agreement or other general laws and obligations or by reason of and to the extent of your fraud, negligence or wilful misconduct or that of or any of your agents or employees."
@@ -890,16 +990,24 @@ msgstr "귀하는 우리를 방어, 면책 및 구하는 데 동의합니다 ...
 #~ msgstr "이 입력란에 아무 것도 입력하지 않았습니다."
 
 #: src/screens/TermsScreen/TermsScreen.tsx:75
-msgid "You must meet the minimum age requirements of the Mahara site to which you want to connect."
-msgstr "최소 연령 요건을 충족해야합니다 ..."
+msgid "You must meet the minimum age requirements of the ePortfolios site to which you want to connect."
+msgstr ""
+
+#: src/screens/TermsScreen/TermsScreen.tsx:75
+#~ msgid "You must meet the minimum age requirements of the Mahara site to which you want to connect."
+#~ msgstr "최소 연령 요건을 충족해야합니다 ..."
 
 #: src/screens/TermsScreen/TermsScreen.tsx:73
 msgid "Your obligations"
 msgstr "귀하의 의무"
 
+#: src/screens/PrivacyScreen/PrivacyScreen.tsx:39
+msgid "Your own name is displayed in the app once you are logged in, and you are connected to your ePortfolios account via an access token that is stored in the app as well as on the server so the two can communicate with each other."
+msgstr ""
+
 #: src/screens/PrivacyScreen/PrivacyScreen.tsx:40
-msgid "Your own name is displayed in the app once you are logged in, and you are connected to your Mahara account via an access token that is stored in the app as well as on Mahara itself so the two can communicate with each other."
-msgstr "로그인하면 자신의 이름이 앱에 표시되고 앱과 Mahara 자체에 저장된 액세스 토큰을 통해 Mahara 계정에 연결되므로 두 사람이 서로 통신 할 수 있습니다."
+#~ msgid "Your own name is displayed in the app once you are logged in, and you are connected to your Mahara account via an access token that is stored in the app as well as on Mahara itself so the two can communicate with each other."
+#~ msgstr "로그인하면 자신의 이름이 앱에 표시되고 앱과 Mahara 자체에 저장된 액세스 토큰을 통해 Mahara 계정에 연결되므로 두 사람이 서로 통신 할 수 있습니다."
 
 #: src/screens/PendingScreen/PendingScreen.tsx:258
 msgid "Your site: {url}"

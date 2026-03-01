@@ -8,7 +8,7 @@ export type UploadItemType = 'FILE' | 'PHOTO' | 'AUDIO' | 'J_ENTRY';
 
 export type MessageInfoType = 'success' | 'warning' | 'error';
 
-// Mahara file creation and for uploading
+// File creation and uploading types
 
 export type File = {
     uri: string | null | undefined;

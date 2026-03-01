@@ -44,7 +44,7 @@ export default function LocalLogin(props: Props) {
         body.append('password', password);
         body.append('service', 'maharamobile');
         body.append('component', 'module/mobileapi');
-        body.append('clientname', 'Mahara Mobile');
+        body.append('clientname', 'ePortfolios Mobile');
         body.append('clientenv', `${Platform.OS}, ${manufacturer}, ${model}`);
         body.append('id', id);
 

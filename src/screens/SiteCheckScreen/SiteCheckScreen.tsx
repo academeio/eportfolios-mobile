@@ -55,7 +55,7 @@ type Props = {
 
 /**
  * This screen holds the URL input and verifies whether a site
- * is a Mahara site with webservices connected.
+ * is an ePortfolios site with webservices connected.
  */
 function SiteCheckScreen(props: Props) {
     const toast = useToast();
@@ -148,7 +148,7 @@ function SiteCheckScreen(props: Props) {
                         fontSize="lg"
                         style={[headingStyles.subHeading1, textStyles.textWhite, textStyles.center]}
                     >
-                        <Trans>What is the address of your Mahara?</Trans>
+                        <Trans>What is the address of your ePortfolios site?</Trans>
                     </Text>
 
                     <Input

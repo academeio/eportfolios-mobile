@@ -27,7 +27,7 @@ function LinkText(props: Props) {
             <Text
                 style={{ ...LinkTextStyles.links, ...generic.regularText }}
                 onPress={
-                    props.url ? () => Linking.openURL(props.url ?? 'mahara.org') : props.onPress
+                    props.url ? () => Linking.openURL(props.url ?? 'https://eportfolios.in') : props.onPress
                 }
             >
                 {props.text}

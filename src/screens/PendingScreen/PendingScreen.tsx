@@ -199,7 +199,7 @@ function PendingScreen(props: Props) {
                         </HStack>
                         <Text
                             color={maharaTheme.colors.success[900]}
-                        >{t`Files have been uploaded to your Mahara successfully!`}</Text>
+                        >{t`Files have been uploaded to your site successfully!`}</Text>
                     </VStack>
                 </Alert>
             )

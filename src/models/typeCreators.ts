@@ -11,7 +11,7 @@ import {
 } from 'models/models';
 import { WS_FUNCTION_UPLOAD_BLOGPOST } from 'utils/constants';
 
-// Mahara file creation
+// File creation for upload
 
 export const newFile = (
     uri: string | null | undefined,
@@ -105,7 +105,7 @@ export const newUserTag = (tagName: string): UserTag => ({
     id: Math.round(Math.random() * 1000),
     tag: tagName
 });
-// id is just external from Mahara, for structure in this app
+// id is just external from the server, for structure in this app
 
 export const newUserFolder = (title: string): UserFolder => ({
     id: `${Math.floor(Math.random() * 100)}`,

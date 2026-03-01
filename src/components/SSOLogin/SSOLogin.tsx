@@ -22,7 +22,7 @@ export default function SSOLogin(props: Props) {
         `${props.url}module/mobileapi/tokenform.php` +
         `?service=${service}&component=${encodeURIComponent(
             component
-        )}&clientname=${encodeURIComponent('Mahara Mobile')}&clientenv=${encodeURIComponent(
+        )}&clientname=${encodeURIComponent('ePortfolios Mobile')}&clientenv=${encodeURIComponent(
             `${Platform.OS}, ${manufacturer}, ${model}`
         )}&clientguid=${id}#sso`;
 

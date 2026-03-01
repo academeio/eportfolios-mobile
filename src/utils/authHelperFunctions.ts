@@ -44,7 +44,7 @@ export async function fetchUserWithToken(serverUrl: string, requestOptions: Requ
     });
     if (json != null) {
         // if json.error is true, meaning failed to log in, we don't reject the promise
-        // and instead use the information inside i.e. the Mahara error message inside
+        // and instead use the information inside i.e. the server error message inside
         // onCheckAuthJSON() to decide on next the next action
         return Promise.resolve(json);
     }
@@ -88,7 +88,7 @@ export const arrayToObject = (array: Array<any>) => {
  * Updates default guest data to user info once logged in.
  * - Tokens, blogs, folders as well as their respective ids need to be updated
  * - Existing pending uploadFiles and uploadJEntries once users login
- * - Rerieved Mahara data to replace guest data be able to upload items.
+ * - Retrieved server data to replace guest data to be able to upload items.
  */
 export const updatePendingItemsOnGuestToUser = async (
     dispatch: Dispatch,
@@ -164,7 +164,7 @@ export const checkValidInitialState = (blogs: UserBlog[], folders: UserFolder[])
 
 /**
  *
- * @param json JSON returned from Mahara API
+ * @param json JSON returned from the server API
  * @param successCallback e.g. props.onGetToken(json.token);
  * @param failCallback e.g. props.onGetToken(null);
  */
@@ -216,7 +216,7 @@ export const login = (
     };
 
     /**
-     * Convert pending items after a guest has logged into Mahara
+     * Convert pending items after a guest has logged in
      */
     const onGuestToUser = async () => {
         dispatch(updateGuestStatus(false));
@@ -281,7 +281,7 @@ export const login = (
                     userData.blogs.blogs.map((b: UserBlogJSON) => userBlogJSONtoUserBlog(b))
                 )
             );
-            // Check if user has folders (they can be deleted on Mahara)
+            // Check if user has folders (they can be deleted on the server)
             if (userData.folders.folders.length !== 0) {
                 dispatch(updateUserFolders(userData.folders.folders));
             }

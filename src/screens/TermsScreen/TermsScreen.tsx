@@ -23,9 +23,9 @@ function TermsScreen(props: Props) {
                         <MediumText>
                             <Trans>
                                 This document constitutes a binding agreement between the provider
-                                of Mahara Mobile – Catalyst.Net Limited – and yourself. The terms
-                                and conditions contained in this document govern your use of Mahara
-                                Mobile.
+                                of ePortfolios Mobile – Academe Research, Inc. – and yourself. The
+                                terms and conditions contained in this document govern your use of
+                                ePortfolios Mobile.
                             </Trans>
                         </MediumText>
                         <MediumText>
@@ -43,14 +43,14 @@ function TermsScreen(props: Props) {
 
                 <HStack>
                     <Box>
-                        <SubHeadingNoColon text={t`Purpose of Mahara Mobile`} />
+                        <SubHeadingNoColon text={t`Purpose of ePortfolios Mobile`} />
                         <MediumText>
                             <Trans>
-                                Mahara Mobile allows you to upload content from your mobile device
-                                into the Mahara site that you are using without needing to go to the
-                                Mahara site itself. It is a more convenient way to record and upload
-                                images, video, and audio files. It also allows you to create journal
-                                entries.
+                                ePortfolios Mobile allows you to upload content from your mobile
+                                device into the ePortfolios site that you are using without needing
+                                to go to the site itself. It is a more convenient way to record and
+                                upload images, video, and audio files. It also allows you to create
+                                journal entries.
                             </Trans>
                         </MediumText>
                     </Box>
@@ -62,7 +62,7 @@ function TermsScreen(props: Props) {
                         <MediumText>
                             <Trans>
                                 We provide a secure environment that allows you to upload your
-                                content to any Mahara site to which you decide to connect.
+                                content to any ePortfolios site to which you decide to connect.
                             </Trans>
                         </MediumText>
                     </Box>
@@ -73,13 +73,13 @@ function TermsScreen(props: Props) {
                         <SubHeadingNoColon text={t`Your obligations`} />
                         <MediumText>
                             <Trans>
-                                You must meet the minimum age requirements of the Mahara site to
+                                You must meet the minimum age requirements of the ePortfolios site to
                                 which you want to connect.
                             </Trans>
                         </MediumText>
                         <MediumText>
                             <Trans>
-                                All files and content you upload to a Mahara site are subject to
+                                All files and content you upload to an ePortfolios site are subject to
                                 copyright law. You are responsible for ensuring you have appropriate
                                 permission to reproduce and publish any work that is not your own.
                             </Trans>
@@ -179,7 +179,7 @@ function TermsScreen(props: Props) {
                                 please
                             </Trans>
 
-                            <LinkText url="https://mahara.org/contact.php" text={t`contact us.`} />
+                            <LinkText url="https://eportfolios.in/contact" text={t`contact us.`} />
                         </MediumText>
                     </Box>
                 </HStack>

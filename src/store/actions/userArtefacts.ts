@@ -59,21 +59,21 @@ export function checkLoginTypes(url: string) {
             const result: LoginInfo = await getJSON(serverUrl);
 
             // TODO: (t`Network Error. Please check internet connection.`)
-            // check that there is a mahara version, and therefore a Mahara instance
+            // check that there is a version, and therefore a valid site instance
             if (!result.maharaversion) {
-                throw new Error(t`This is not a Mahara site. Please re-enter URL.`);
+                throw new Error(t`This is not a valid ePortfolios site. Please re-enter URL.`);
             }
-            // check that webservices is enabled on the Mahara instance
+            // check that webservices is enabled on the site instance
             if (!result.wsenabled) {
                 throw new Error(
-                    t`Web services are not enabled on the Mahara site. Please contact the administrator of your site to have them enabled.`
+                    t`Web services are not enabled on this site. Please contact the administrator of your site to have them enabled.`
                 );
             }
             dispatch(updateLoginTypes(result));
             dispatch(updateUrl(url));
         } catch (error: any) {
             if (error.code >= 400 && error.code < 600) {
-                throw new Error(t`Invalid Mahara site. Please re-enter URL.`);
+                throw new Error(t`Invalid site. Please re-enter URL.`);
             }
 
             throw error;

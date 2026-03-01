@@ -87,7 +87,7 @@ export function uploadItemToMahara(url: string, item: object) {
             );
         }
 
-        // the way Mahara works, we will always receive a 200 status from the backend on upload
+        // the way the server works, we will always receive a 200 status from the backend on upload
         // therefore, this catch will never get triggered
         return customResponse;
     };

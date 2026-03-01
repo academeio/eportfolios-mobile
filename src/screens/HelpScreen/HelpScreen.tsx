@@ -13,9 +13,9 @@ function HelpScreen() {
                 <HStack>
                     <MediumText>
                         <Trans>
-                            For help, contact the support team of the Mahara instance that you are
+                            For help, contact the support team of the ePortfolios site that you are
                             using. Typically, you can find a &apos;Contact us&apos; link in the
-                            footer of the Mahara site to which you log in.
+                            footer of the site to which you log in.
                         </Trans>
                     </MediumText>
                 </HStack>
@@ -23,7 +23,7 @@ function HelpScreen() {
                     <MediumText>
                         <Trans>
                             If you have general questions or want to report issues, you can do so on
-                            the Mahara Mobile&apos;s GitHub &apos;Issues&apos; page.
+                            the ePortfolios Mobile&apos;s GitHub &apos;Issues&apos; page.
                         </Trans>
                     </MediumText>
                 </HStack>

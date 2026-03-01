@@ -52,7 +52,7 @@ function AddAudio(props: Props) {
                     PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
                     {
                         title: t`Access permission`,
-                        message: t`Allow Mahara Mobile to access photos, media, and files on your device?`,
+                        message: t`Allow ePortfolios Mobile to access photos, media, and files on your device?`,
                         buttonPositive: t`Allow`
                     }
                 );
@@ -71,7 +71,7 @@ function AddAudio(props: Props) {
                     PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
                     {
                         title: t`Access permission`,
-                        message: t`Allow Mahara Mobile to read photos, media, and files on your device?`,
+                        message: t`Allow ePortfolios Mobile to read photos, media, and files on your device?`,
                         buttonPositive: t`Allow`
                     }
                 );
