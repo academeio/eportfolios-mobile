@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Mahara Mobile</string>
+	<string>ePortfolios Mobile</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIconFile</key>
@@ -19,11 +19,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>25.0.5</string>
+	<string>1.0.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>71</string>
+	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true />
 	<key>NSAppTransportSecurity</key>
@@ -34,15 +34,15 @@
 		<true />
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like to use your camera to take photos and videos to collect evidence for your Mahara.</string>
+	<string>$(PRODUCT_NAME) would like to use your camera to take photos and videos to collect evidence for your ePortfolio.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string />
 	<key>NSMicrophoneUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like to use your microphone to record audios/video to upload to your Mahara.</string>
+	<string>$(PRODUCT_NAME) would like to use your microphone to record audios/video to upload to your ePortfolio.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>$(PRODUCT_NAME) would like to save photos to your photo gallery</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like access to your photo gallery to upload files to your Mahara.</string>
+	<string>$(PRODUCT_NAME) would like access to your photo gallery to upload files to your ePortfolio.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>OpenSansMedliumItalic.ttf</string>

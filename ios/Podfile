@@ -45,7 +45,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'MaharaMobile' do
+target 'EPortfoliosMobile' do
   config = use_native_modules!
 
   use_react_native!(
