@@ -1,6 +1,6 @@
 {
-    "name": "maharamobile",
-    "version": "25.0.5",
+    "name": "eportfolios-mobile",
+    "version": "1.0.0",
     "private": true,
     "scripts": {
         "android": "react-native run-android",
@@ -25,11 +25,11 @@
         "postinstall": "patch-package"
     },
     "codegenConfig": {
-        "name": "MaharaMobile",
+        "name": "EPortfoliosMobile",
         "type": "components",
         "jsSrcsDir": "./src",
         "android": {
-            "javaPackageName": "org.mahara.mobile.app"
+            "javaPackageName": "in.eportfolios.mobile"
         }
     },
     "dependencies": {
